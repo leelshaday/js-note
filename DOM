@@ -1,8 +1,8 @@
    
-    When a web page is loaded, the browser creates a **D**
-    ocument **O**
-    bject **M**
-    odel of the page.
+    When a web page is loaded, the browser creates a 
+    Document 
+    Object 
+    Model of the page.
     
     The DOM is a W3C (World Wide Web Consortium) standard.
     
