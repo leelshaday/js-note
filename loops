@@ -1,0 +1,58 @@
+
+     uses when want to run the same code over and over again
+    
+    - for loop
+        
+          loops through a block of code a number of times
+        
+          for statement creates a loop with 3 optional expressions:
+        
+             for (expression 1; expression 2; expression) {
+        
+        // code block to be executed}
+        
+        expression 1: is executed (one time) before the execution of the code block.
+        
+        expression 2: defines the condition for executing the code block.
+        
+        expression 3: is executed (every time) after the code block has been executed.
+        
+        example: for(let i = 0; i < 5; i++)
+        
+                       text += “the number is “ + i + “ ;}
+        
+    - while loop
+        
+        loops through a block of code while a specified condition in true.
+        
+          while (condition)
+        
+          { //code block to be executed }
+        
+        example: while (i < 10) {
+        
+        text += “ the number is “ + i;
+        
+        i++;
+        
+        }
+        
+    - Do while loop
+        
+        loops through a block of code while a specified condition is true
+        
+        do {
+        
+        //code block to be executed}
+        
+        while(condition);}
+        
+        example: do{
+        
+        text += “ the number is “ + i;
+        
+        i++;
+        
+        }
+        
+        while(i < 10);
