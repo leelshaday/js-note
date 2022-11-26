@@ -1,0 +1,140 @@
+        conditional statement are used to perform different actions based on different conditions
+    
+    - if
+        
+        use to specify a block of code to be executed, if a specified condition is true
+        
+        if (condition)
+        
+        {
+        
+        // block of code to be executed if the condition is true}
+        
+        example - if(hour < 18){
+        
+        greeting - “good day”;
+        
+        }
+        
+    - else
+        
+        to specify a block of code to be executed, if the same condition is false
+        
+        if (condition){
+        // block of code to be executed if the condition is true
+        
+        }else{
+        
+        //block of code to be executed if the condition is false
+        
+        }
+        
+        example: if (hour < 18)
+        
+        greeting - “good day”;
+        
+        }else {
+        
+        greeting - “good evening”;
+        
+        }
+        
+    - else if
+        
+        to specify new condition to test, if the first condition is false
+        
+        if (condition1){
+        
+        //block of code to be executed if conditional is true
+        
+        }else if (condition2){
+        
+        //block of code to be executed if the conditional is false and condition is true
+        
+        }else {
+        
+        // block of code to be execute if the condition is false and condition2 is false
+        
+        }
+        
+        example: if (time < 10) {
+        
+        greeting = “good morning”;
+        
+        } else if (time = 20) {
+        
+        greeting = “good day”;
+        
+        } else {
+        
+        greeting = “good evening”;
+        
+        }
+        
+    - switch
+        
+        to specify many alternative block of code to be executed
+        
+        switch(expression) {
+        
+        case x:
+        
+        //code block
+        
+        break;
+        
+        case y:
+        
+        //code block
+        
+        break;
+        
+        default:
+        
+        //code block
+        
+        }
+        
+        example: switch(new Date(). getDay()) {
+        
+        case 0:
+        
+        day = “Sunday”;
+        
+        break;
+        
+        case 1:
+        
+        day = “Monday”
+        
+        break;
+        
+        case 2:
+        
+        day = “Tuesday”
+        
+        break;
+        
+        case 3:
+        
+        day = “ Wednesday”;
+        
+        break;
+        
+        case 4:
+        
+        day = “Thursday”;
+        
+        break;
+        
+        case 5:
+        
+        day = “ Friday”;
+        
+        break;
+        
+        case 6:
+        
+        day = “Saturday”;
+        
+        }
