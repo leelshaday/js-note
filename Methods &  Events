@@ -1,0 +1,32 @@
+    
+    JavaScript methods are actions that can be performed on objects.
+    
+    A JavaScript **method** is a property containing a **function definition**.
+    
+    *objectName.methodName()*
+    
+    example:name = person.fullName();
+    
+    - Events
+    
+    HTML events are **"things"** that happen to HTML elements.
+    
+    When JavaScript is used in HTML pages, JavaScript can **"react"** on these events.
+    
+    examples of HTML events:
+    
+    - An HTML web page has finished loading
+    - An HTML input field was changed
+    - An HTML button was clicked
+    
+    JavaScript lets you execute code when events are detected.
+    
+    HTML allows event handler attributes, **with JavaScript code**, to be added to HTML elements.
+    
+    With single quotes:
+    
+    <*element* *event*=**'*some JavaScript*'**>
+    
+    With double quotes:
+    
+    <*element* *event*=**"*some JavaScript*"**>
